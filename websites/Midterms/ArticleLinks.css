@@ -1,0 +1,18 @@
+a:link {
+    text-decoration: none, underline;
+    color: red;
+  }
+  a:visited {
+    text-decoration: none, line-through;
+    color: yellow;
+  }
+  
+  a:hover {
+    text-decoration: none, blink;
+    color: blue;
+  }
+  
+  a:active {
+    text-decoration: none, overline;
+    color: lightgreen;
+  }

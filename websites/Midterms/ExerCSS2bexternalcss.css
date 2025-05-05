@@ -1,0 +1,13 @@
+.tops{
+    background-color: white;
+}
+body{
+    background-color: white;
+    background-image: linear-gradient(to bottom right,white,black);
+    background-position: center;
+}
+table{
+    border-color: rgb(152, 200, 255);
+    background-color: grey;
+    margin-top: 250px;
+}

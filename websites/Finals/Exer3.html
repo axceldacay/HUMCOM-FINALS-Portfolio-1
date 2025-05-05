@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KM to CM Conversion</title>
+    <script type="text/javascript" src = "conversion.js">
+
+    </script>
+    <style>
+        button{
+            height: 50px;
+            width: 100px;
+            background-image: linear-gradient(aliceblue, white);
+            border-color: aliceblue;
+        }
+        #content{
+            columns: 2;
+        }
+        #value{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <table align="center">
+        <tr>
+            <td>
+    <div id = "content" align="center">
+        <div> 
+            <input type="number" id="value" placeholder="ENTER A NUMBER">
+        </div>
+        <div>
+            <button onclick="convert();">Submit</button>
+        </div>
+    </div>
+    <h2><span id="result"></span></h2>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

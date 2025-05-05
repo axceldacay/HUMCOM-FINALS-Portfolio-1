@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="javascript" type="text/javascript" src="calc.js"> 
+        
+    </script>
+    <style>
+        input{
+            height: 30px;
+            width: 97%;
+        }
+        button{
+            background-image: linear-gradient(aliceblue,white);
+            height: 50px;
+            width: 80px;
+            border-color: aliceblue;
+        }
+        #res{
+            font-family: fantasy;
+            font-size: 20pt;
+        }
+        table{
+            margin-top: 100px;
+
+        }
+    </style>
+</head>
+<body>
+    <table border="3" align="center">
+    <h1 align="center">CALCULATOR</h1>
+    <div id = "content"></div>
+        <tr>
+            <td>
+    <input type="text" id="num1" placeholder="ENTER A NUMBER"><br>
+    <input type="text" id="num2" placeholder="ENTER A NUMBER"><br>
+    <button onclick="add();"><h3>+</h3></button>
+    <button onclick="subtract();"><h3>-</h3></button>
+    <button onclick="multiply();"><h3>x</h3></button>
+    <button onclick="divide();"><h3>÷</h3></button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+    <br>
+    <p id="res">RESULT: <span id="result"></span> </p>
+            </td>
+        </tr>
+</table>
+</body>
+</html>

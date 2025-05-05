@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers</title>
+    <script type="text/javascript" src = "numbers.js">
+
+    </script>
+    <style>
+        table{
+            margin-top: 25%;
+        }
+        button{
+            height: 40px;
+            width: 100px;
+            background-image: linear-gradient(aliceblue, white);
+            border-color: aliceblue;
+        }
+        #content{
+            columns: 2;
+        }
+        #value{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Not a Calculator</h1>
+    <table align="center">
+        <tr>
+            <td>
+<div id = "content">
+    <div> 
+    <input type="number" id="value" placeholder="ENTER A NUMBER">
+    </div>
+    <div>
+    <button onclick="getResult();">Submit</button>
+</div>
+</div>
+    <h2><span id="resultOf"></span></h2>
+    <h2><span id="result2"></span></h2>
+
+        </td>
+    </tr>
+</table>
+</body>
+</html>
