@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HUMCOM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="port.css">
+<script src="porter.js" defer></script>
+</head>
+<body class="light-mode">
+
+  
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">TOP OF THE PAGE</a>
+    <a href="#wts" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WHAT TO SEE</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <button class="w3-bar-item w3-button w3-padding-large w3-hide-small" id="toggleButton">Switch to Dark Mode</button>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#wts" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">WHAT TO SEE</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <button class="w3-bar-item w3-button w3-padding-large" id="toggleButton">Switch to Dark Mode</button>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center" border="3" style="border-color: black;" id="slidebg">
+    <img src=pictures\showcase1.png class="card-img-top img-center" alt="prelims" id="showc1">
+    <h2 class="slideh2">PRELIMS</h2>
+  </div>
+  <div class="mySlides w3-display-container w3-center" border="3" style="border-color: black;" id="slidebg">
+    <img src=pictures\showcase2.png class="card-img-top img-bordered" alt="midterms" id="showc2">
+    <h2 class="slideh2">MIDTERMS</h2>
+  </div>
+  <div class="mySlides w3-display-container w3-center" border="3" style="border-color: black;" id="slidebg">
+    <img src=pictures\showcase3.png class="card-img-top img-bordered" alt="finals" id="showc3">
+    <h2 class="slideh2">FINALS</h2>
+  </div>
+  <!-- Body Section -->
+  <hr style="height: 8px;background-color: black;">
+  <div class="w3-container w3-content w3-center w3-padding-32" style="max-width:800px" id="wts">
+    <h2 class="w3-wide"><u>WHAT TO SEE</u></h2>
+    <hr style="height: 8px;background-color: black;">
+    <p class="w3-opacity"><i>A Man's Slow Descent To Virtual Insanity</i></p>
+    <p class="w3-justify">If there's one thing I learnt from my experience in this particular subject, is that, it's hard at first, then it becomes flaccid and you end up losing more women than first thought.
+      What I meant to say was, it's a good thing I learned so much, because this is practically my job and you, my good man, will accept me. Hopefully, maybe, possibly.
+    </p>
+    <div class="w3-row w3-padding-32">
+      <img src="pictures/ABOUT.jpg" alt="My_Profile" id="aboutsec">
+      <p>Hello and Welcome to my Portfolio page, I am Axcel Dacay, and here is the collection of work I have gathered from beginning to end of my journey in HUMCOM.</p>
+      <p>I've had a hard time deciding the career path I would pursue, from Arts, to Medical Tech, and now, I'm here in Computer Science.
+        My fascination about coding and exploring code began during the first ever activity regarding HTML code, from there, I dug deeper in the dirt and found my true course.
+        As of now, I'm 20 years old and looking forward to finishing this course early and get into much more advanced nonsense in the professional field.
+      </p>
+      <hr style="height: 8px;background-color: black;">
+      <h1>Visit The Gallery!</h1>
+    </div>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <a href="Gallery1.html"><button id="day1">PRELIMS Section</button></a>
+      </div>
+      <div class="w3-third">
+        <a href="Gallery2.html"><button id="day2">MIDTERMS Section</button></a>
+      </div>
+      <div class="w3-third">
+        <a href="Gallery3.html"><button id="day3">  FINALS Section</button></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Concerned? Drop a note, just don't spam!</i></p>
+    <div>
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px" align="center"></i> 247 Camp 8, Baguio City <br>
+        <i class="fa fa-phone" style="width:30px" align="center"></i>Phone: 0963 047 3855 <br>
+        <i class="fa fa-envelope" style="width:30px" align="center"> </i> <a href="mailto:20187623@s.ubaguio.edu">Email: 20187623@s.ubaguio.edu </a><br>
+      </div>
+    </div>
+    <div>
+      <button id="incrementBtn" style="font-size: 16px;padding: 8px 16px;cursor: pointer;" align="center">ADHD Button</button>
+      <span id="count" style="font-size: 16px;margin-left: 10px;font-weight: bold;">0</span>
+      <p><em>*In case you feel bored!</em></p>
+    </div>
+  </div>
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <h2>Bottom of the page already!?</h2>
+</footer>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

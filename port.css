@@ -1,0 +1,153 @@
+.slideh2{
+    color: white;
+  }
+  #slidebg{
+    background-color: black;
+    height: 350px;
+  }
+  #showc1{
+    
+    border: 8px solid;
+    border-image: linear-gradient(to right, lightgreen 50%, white 50%) 1;
+    border-image-slice: 1;
+    padding: 5px;
+    box-shadow:
+    0 20px 50px green,
+    0 5px 5px black;
+    border-radius: 5px;
+    height: 270px;
+  }
+  #showc2{
+    border: 8px solid;
+    border-image: linear-gradient(to right, orange 50%, white 50%) 1;
+    border-image-slice: 1;
+    padding: 5px;
+    box-shadow:
+    0 20px 50px orange,
+    0 5px 5px black;
+    border-radius: 5px;
+    height: 270px;
+  }
+  #showc3{
+    border: 8px solid;
+    border-image: linear-gradient(to right, red 50%, white 50%) 1;
+    border-image-slice: 1;
+    padding: 5px;
+    box-shadow:
+    0 20px 50px red,
+    0 5px 5px black;
+    border-radius: 5px;
+    height: 270px;
+  }
+  #thegoodsection{
+    height: 250px;
+  }
+  #clicked{ 
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    margin-left: 10%;
+  }
+.mySlides {display: none}
+
+body {
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Arial, sans-serif;
+  }
+  
+  .light-mode {
+    background-color: white;
+    color: black;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  #day1, #day2, #day3 {
+    padding: 15px 25px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  #day1 {
+    background-color: green;
+  }
+  #day2 {
+    background-color: orange;
+  }
+  #day3 {
+    background-color: red;
+  }
+  #day1:active {
+    background-color: green;
+    box-shadow: 0 5px grey;
+    transform: translateY(4px);
+  }
+  #day2:active {
+    background-color: orange;
+    box-shadow: 0 5px grey;
+    transform: translateY(4px);
+  }
+  #day3:active {
+    background-color: red;
+    box-shadow: 0 5px grey;
+    transform: translateY(4px);
+  }
+  #day1:hover {
+    box-shadow: 0 0 20px 5px green, 0 0 40px 10px green;
+    background: darkgreen;
+  }
+  #day2:hover {
+    box-shadow: 0 0 20px 5px orange, 0 0 40px 10px orange;
+    background: darkorange;
+  }
+  #day3:hover {
+    box-shadow: 0 0 20px 5px red, 0 0 40px 10px red;
+    background: darkred;
+  }
+
+  .yup{
+      background: url(pictures/W9dC.gif) center/cover no-repeat;
+    }
+  .labelslprog{
+    color: white;
+  }
+  #asp{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .nope{
+    background: url(pictures/source.gif) center/cover no-repeat;
+  }
+  .uhuh{
+    background: url(pictures/BXe0.gif) center/cover no-repeat;
+  }
+
+  #aboutsec{
+    border-radius: 50%;
+    height: 450px;
+    width: 60%;
+    object-fit: cover;
+  }
+  #contactgal{
+    color: white;
+  }
+  .whattoexpect{
+    color: white;
+  }
+  .previewimg{
+    object-fit: cover;
+    height: 50px;
+    width: 245px;
+    border: 2px solid;
+    border-color:blue
+  }
+  #cardglows:hover{
+    box-shadow: 0 0 10px 15px grey, 0 0 40px 10px grey;
+  }

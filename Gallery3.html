@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HUMCOM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="port.css">
+<script src="porter.js" defer></script>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">TOP OF THE PAGE</a>
+      <a href="Portfolio.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">HOME</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    </div>
+  </div>
+  
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="Portfolio.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  </div>
+
+    <div class="uhuh" id="gallery">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+          <h2 class="w3-wide w3-center" id="asp">GALLERY</h2>
+          <p class="w3-opacity w3-center" id="asp"><i>The Projects that made me, well... me!</i></p><br>
+          
+          <h3 class="whattoexpect">Skillset as of this term:</h3>
+          <h6 class="labelslprog">General</h6>
+    <div class="progress" role="progressbar" aria-label="Animated striped" aria-valuenow="45%" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 45%"></div>
+    </div>
+    <h6 class="labelslprog">HTML</h6>
+    <div class="progress" role="progressbar" aria-label="Animated striped" aria-valuenow="70%" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%"></div>
+    </div>
+    <h6 class="labelslprog">CSS</h6>
+    <div class="progress" role="progressbar" aria-label="Animated striped" aria-valuenow="40%" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
+    </div>
+    <h6 class="labelslprog">JavaScript</h6>
+    <div class="progress" role="progressbar" aria-label="Animated striped" aria-valuenow="25%" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 25%"></div>
+    </div>
+          
+          <h3 id="asp">FINALS</h3>
+          <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/Finals/Exer1.html"><img src="pictures/fin1.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-grey" id="thegoodsection">
+                <br>
+                <p><b>Exercise #1</b></p>
+                <p class="w3-opacity">Simple Calculator</p>
+                <p>A simple calculator made with javascript.</p>
+                <br>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('finModal1').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/Finals/Exer2.html"><img src="pictures/fin2.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-grey" id="thegoodsection1">
+                <br>
+                <p><b>Exercise #2</b></p>
+                <p class="w3-opacity">Odds n' Evens</p>
+                <p>There's many things to consider when making functional identifiers.</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('finModal2').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/Finals/Exer3.html"><img src="pictures/fin3.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-grey" id="thegoodsection">
+                <br>
+                <p><b>Exercise #3</b></p>
+                <p class="w3-opacity">KM to CM</p>
+                <p>A simple html using javascript to convert Kilometers to Centimeters.</p>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('finModal3').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/Finals/Exer4.html"><img src="pictures/fin4.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-grey" id="thegoodsection">
+                <br>
+                <p><b>Exercise #4</b></p>
+                <p class="w3-opacity">Multiplication Table</p>
+                <p>A simple Multiplication table where the user is prompted to define the width and height.</p>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('finModal4').style.display='block'">View</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contactgal">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Concerned? Drop a note, just don't spam!</i></p>
+    <div>
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px" align="center"></i> 247 Camp 8, Baguio City <br>
+        <i class="fa fa-phone" style="width:30px" align="center"></i>Phone: 0963 047 3855 <br>
+        <i class="fa fa-envelope" style="width:30px" align="center"> </i> <a href="mailto:20187623@s.ubaguio.edu">Email: 20187623@s.ubaguio.edu </a><br>
+      </div>
+    </div>
+  </div>
+      </div>
+    
+      <!-- Img Modal -->
+      <div id="finModal1" class="w3-modal">
+        <div>
+          <img src="pictures/fin1.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('finModal1').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="finModal2" class="w3-modal">
+        <div>
+          <img src="pictures/fin2.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('finModal2').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="finModal3" class="w3-modal">
+        <div>
+          <img src="pictures/fin3.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('finModal3').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="finModal4" class="w3-modal">
+        <div>
+          <img src="pictures/fin4.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('finModal4').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+
+      <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HUMCOM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="port.css">
+<script src="porter.js" defer></script>
+<body>
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-black w3-card">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">TOP OF THE PAGE</a>
+      <a href="Portfolio.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">HOME</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    </div>
+  </div>
+  
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="Portfolio.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  </div>
+
+    <div class="nope" id="gallery">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+          <h2 class="w3-wide w3-center" id="asp">GALLERY</h2>
+          <p class="w3-opacity w3-center" id="asp"><i>The Projects that made me, well... me!</i></p><br>
+
+          <h3 class="whattoexpect">Skillset as of this term:</h3>
+          <h6 class="labelslprog">General</h6>
+    <div class="progress" role="progressbar" aria-label="Animated striped" aria-valuenow="27%" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 27%"></div>
+    </div>
+    <h6 class="labelslprog">HTML</h6>
+    <div class="progress" role="progressbar" aria-label="Animated striped" aria-valuenow="50%" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 50%"></div>
+    </div>
+    <h6 class="labelslprog">CSS</h6>
+    <div class="progress" role="progressbar" aria-label="Animated striped" aria-valuenow="30%" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 30%"></div>
+    </div>
+    <h6 class="labelslprog">JavaScript</h6>
+    <div class="progress" role="progressbar" aria-label="Animated striped" aria-valuenow="1%" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 1%"></div>
+    </div>
+          
+          <h3 id="asp">MIDTERMS</h3>
+          <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/Midterms/ExerciseCSS1.html"><img src="pictures/mid1.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-light-grey" id="thegoodsection">
+                <br>
+                <p><b>Exercise #1</b></p>
+                <p class="w3-opacity">An edit of Sample Polynomials with CSS</p>
+                <p>Application of new formats and styles in an activity from the past.</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('midModal1').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/Midterms/ExerciseCSS2.html"><img src="pictures/mid2.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-light-grey" id="thegoodsection">
+                <br>
+                <p><b>Exercise #2</b></p>
+                <p class="w3-opacity">Addition of even newer styles in HTML Lists</p>
+                <p>CSS external styling with the HTML Lists activity.</p>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('midModal2').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/Midterms/ExerciseCSS2a.html"><img src="pictures/mid3.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-light-grey" id="thegoodsection">
+                <br>
+                <p><b>Exercise #3</b></p>
+                <p class="w3-opacity">Sample Polynomials with background image</p>
+                <p>An edit of a past activity regarding Sample Polynomials with advanced external CSS.</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('midModal3').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/Midterms/ExerciseCSS2b.html"><img src="pictures/mid4.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-light-grey" id="thegoodsection">
+                <br>
+                <p><b>Exercise #4</b></p>
+                <p class="w3-opacity">Schedule edit with CSS</p>
+                <p>A little edit of the Schedule activity from PRELIMS.</p>
+                <br>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('midModal4').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/Midterms/ExerciseCSS3.html"><img src="pictures/mid5.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-light-grey" id="thegoodsection">
+                <br>
+                <p><b>Exercise #5</b></p>
+                <p class="w3-opacity">Edit of an Article</p>
+                <p>A past activity regarding my Article website.</p>
+                <br>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('midModal5').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/Midterms/ExerciseCSS4.html"><img src="pictures/mid6.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-light-grey" id="thegoodsection">
+                <br>
+                <p><b>Exercise #6</b></p>
+                <p class="w3-opacity">Colorful Lists</p>
+                <p>Lists but with more vibrant colors!</p>
+                <br>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('midModal6').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/Midterms/ExerciseCSS5a.html"><img src="pictures/mid7.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-light-grey" id="thegoodsection">
+                <br>
+                <p><b>Exercise #7</b></p>
+                <p class="w3-opacity">Margins Applied</p>
+                <p>Edited version of Lists and Schedule, now with margins!</p>
+                <br>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('midModal7').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/Midterms/ExerciseCSS6.html"><img src="pictures/mid9.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-light-grey" id="thegoodsection">
+                <br>
+                <p><b>Exercise #8</b></p>
+                <p class="w3-opacity">Divisions</p>
+                <p>Boxed up Articles update, that's nice.</p>
+                <br>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('midModal8').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/Midterms/MidtermExam/MT_Exam.html"><img src="pictures/midexam.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-light-grey" id="thegoodsection">
+                <br>
+                <p><b>EXAMINATION</b></p>
+                <p class="w3-opacity">Portfolio website</p>
+                <p>A 'Portfolio' website, I suppose for advertising.</p>
+                <br>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('midModal9').style.display='block'">View</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contactgal">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Concerned? Drop a note, just don't spam!</i></p>
+    <div>
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px" align="center"></i> 247 Camp 8, Baguio City <br>
+        <i class="fa fa-phone" style="width:30px" align="center"></i>Phone: 0963 047 3855 <br>
+        <i class="fa fa-envelope" style="width:30px" align="center"> </i> <a href="mailto:20187623@s.ubaguio.edu">Email: 20187623@s.ubaguio.edu </a><br>
+      </div>
+    </div>
+  </div>
+      </div>
+    
+      <!-- Img Modal -->
+      <div id="midModal1" class="w3-modal">
+        <div>
+          <img src="pictures/mid1.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('midModal1').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="midModal2" class="w3-modal">
+        <div>
+          <img src="pictures/mid2.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('midModal2').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="midModal3" class="w3-modal">
+        <div>
+          <img src="pictures/mid3.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('midModal3').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="midModal4" class="w3-modal">
+        <div>
+          <img src="pictures/mid4.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('midModal4').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="midModal5" class="w3-modal">
+        <div>
+          <img src="pictures/mid5.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('midModal5').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="midModal6" class="w3-modal">
+        <div>
+          <img src="pictures/mid6.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('midModal6').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="midModal7" class="w3-modal">
+        <div>
+          <img src="pictures/mid7.PNG" alt="samp" id="clicked">
+          <img src="pictures/mid8.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('midModal7').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="midModal8" class="w3-modal">
+        <div>
+          <img src="pictures/mid9.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('midModal8').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="midModal9" class="w3-modal">
+        <div>
+          <img src="pictures/midexam.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('midModal9').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+
+      <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HUMCOM</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="port.css">
+<script src="porter.js" defer></script>
+
+<body>
+  <!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">TOP OF THE PAGE</a>
+    <a href="Portfolio.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">HOME</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="Portfolio.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+    <div class="yup" id="gallery">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+          <h2 class="w3-wide w3-center" id="asp">GALLERY</h2>
+          <p class="w3-opacity w3-center" id="asp"><i>The Projects that made me, well... me!</i></p><br>
+
+          <h3 class="whattoexpect">Skillset as of this term:</h3>
+          <h6 class="labelslprog">General</h6>
+    <div class="progress" role="progressbar" aria-label="Animated striped" aria-valuenow="7%" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 7%"></div>
+    </div>
+    <h6 class="labelslprog">HTML</h6>
+    <div class="progress" role="progressbar" aria-label="Animated striped" aria-valuenow="20%" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 20%"></div>
+    </div>
+    <h6 class="labelslprog">CSS</h6>
+    <div class="progress" role="progressbar" aria-label="Animated striped" aria-valuenow="1%" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 1%"></div>
+    </div>
+    <h6 class="labelslprog">JavaScript</h6>
+    <div class="progress" role="progressbar" aria-label="Animated striped" aria-valuenow="1%" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 1%"></div>
+    </div>
+          
+          <h3 id="asp">PRELIMS</h3>
+          <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/First Grading/LabExercise1.html"><img src="pictures/pre1.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-white" id="thegoodsection">
+                <br>
+                <p><b>Exercise #1</b></p>
+                <p class="w3-opacity">Personal Info Site</p>
+                <p>A small website containing some maybe true, maybe false information about a certain student(me).</p>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('preModal1').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/First Grading/LabExercise2.html"><img src="pictures/pre2.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-white" id="thegoodsection">
+                <br>
+                <p><b>Exercise #2</b></p>
+                <p class="w3-opacity">Sample Polynomial Expressions</p>
+                <p>Math. Just math.</p>
+                <br>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('preModal2').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows"> 
+              <a href="websites/First Grading/LabExercise3.html"><img src="pictures/pre3.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-white" id="thegoodsection">
+                <br>
+                <p><b>Exercise #3</b></p>
+                <p class="w3-opacity">HTML Lists</p>
+                <p>Something, we'd need if the Philippines was in snow.</p>
+                <br>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('preModal3').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/First Grading/LabExercise4.html"><img src="pictures/pre4.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-white" id="thegoodsection">
+                <br>
+                <p><b>Exercise #4</b></p>
+                <p class="w3-opacity">Links</p>
+                <p>Huh? Oh, right this one, I was absent here but hey that's past me's job to worry for.</p>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('preModal4').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/First Grading/LabExercise5.html"><img src="pictures/pre5.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-white" id="thegoodsection">
+                <br>
+                <p><b>Exercise #5</b></p>
+                <p class="w3-opacity">BASIC Table</p>
+                <p>"You're weak. ===>"</p>
+                <br>
+                <br>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('preModal5').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <a href="websites/First Grading/LabExercise6.html"><img src="pictures/pre6.PNG" alt="preview" class="previewimg"></a>
+              <div class="w3-container w3-white" id="thegoodsection">
+                <br>
+                <p><b>Exercise #6</b></p>
+                <p class="w3-opacity">COMPLEX Table</p>
+                <p>"<=== I'm you..."</p>
+                <br>
+                <br>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('preModal6').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+            <img src="pictures/missing.jpg" alt="preview" class="previewimg">
+              <div class="w3-container w3-white" id="thegoodsection">
+                <br>
+                <p><b>Exercise #7</b></p>
+                <p class="w3-opacity">Compilation</p>
+                <p>Hey look, it's that high-score activity I missed because of a FLU!</p>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('preModal7').style.display='block'">View</button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom" id="cardglows">
+              <img src="pictures/prexam.PNG" alt="preview" class="previewimg">
+              <div class="w3-container w3-white" id="thegoodsection">
+                <br>
+                <p><b>EXAMINATION</b></p>
+                <p class="w3-opacity">Map of the USA</p>
+                <p>Time is apparently irrelevant for this specific task.</p>
+                <br>
+                <br>
+                <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('preModal8').style.display='block'">View</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contactgal">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Concerned? Drop a note, just don't spam!</i></p>
+    <div>
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px" align="center"></i> 247 Camp 8, Baguio City <br>
+        <i class="fa fa-phone" style="width:30px" align="center"></i>Phone: 0963 047 3855 <br>
+        <i class="fa fa-envelope" style="width:30px" align="center"> </i> <a href="mailto:20187623@s.ubaguio.edu">Email: 20187623@s.ubaguio.edu </a><br>
+      </div>
+    </div>
+  </div>
+      </div>
+    
+      <!-- Img Modal -->
+      <div id="preModal1" class="w3-modal">
+        <div>
+          <img src="pictures/pre1.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('preModal1').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="preModal2" class="w3-modal">
+        <div>
+          <img src="pictures/pre2.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('preModal2').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="preModal3" class="w3-modal">
+        <div>
+          <img src="pictures/pre3.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('preModal3').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="preModal4" class="w3-modal">
+        <div>
+          <img src="pictures/pre4.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('preModal4').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="preModal5" class="w3-modal">
+        <div>
+          <img src="pictures/pre5.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('preModal5').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="preModal6" class="w3-modal">
+        <div>
+          <img src="pictures/pre6.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('preModal6').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="preModal7" class="w3-modal">
+        <div>
+          <img src="pictures/pre7.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('preModal7').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+      <div id="preModal8" class="w3-modal">
+        <div>
+          <img src="pictures/prexam.PNG" alt="samp" id="clicked">
+          <button class="w3-button w3-red w3-section" onclick="document.getElementById('preModal8').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        </div>
+      </div>
+
+      <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
